@@ -1,7 +1,7 @@
-#facial features machine learning 
+# facial features machine learning 
 
-##Main objective 
-###identify a gender of person by his facial features
+## Main objective 
+### identify a gender of person by his facial features
 
 ---------------------------------------------------------------------
 ### Recommend to check the facial features machine learning .pptx for project breakdown
@@ -18,7 +18,7 @@ eventually our database contained over 70,000 labeled images.
 ####shape_predictor_68_face_landmarks.dat
 We used shape_predictor_68_face_landmarks file which detecting a face in an image and setting 68 points on the face in specific locations.
 
-####create_df.py
+#### create_df.py
 ```py
 def create_DataFrame():
     num_face_landmarks = 68
@@ -41,7 +41,7 @@ def create_DataFrame():
 In that part of the project we created our dataframe and we stored each coordinate of points that our shape_predictor_68_face_landmarks recognized ,
 each column of the dataframe were the location of the point on the face.
 
-####Data_handeling.py
+#### Data_handeling.py
 After we had a dataframe full of coordiantes for each point we converted our X and Y coordinates to specific distances between points in order to represent facial features on the face.
 ```py
 new_df = pd.DataFrame()
@@ -59,8 +59,8 @@ new_df = pd.DataFrame()
     return new_df
 ```
 
-##step 3 : Model
-####build_model.py
+## step 3 : Model
+#### build_model.py
 In this section of the project we looked for a model which will give us the best accuracy on our data,
 after we tried a myriad of models the one who gave us the best accuracy was SVM .
 ```py
@@ -75,7 +75,7 @@ def SVM2(X_train, y_train):
 ```
 
 
-##step 4 : Interpretation
+## step 4 : Interpretation
 Our conclusions about the project were based on the accuracy of the model.
 ```py
 SVM :
