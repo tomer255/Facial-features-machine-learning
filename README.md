@@ -8,14 +8,14 @@
 
 ---------------------------------------------------------------------
 ## step 1 : Scraping 
-####crawling.py
+#### crawling.py
 Scraping images from shutterstock.com website in order to fill our dataset with labeled images by gender.
 eventually our database contained over 70,000 labeled images.
 
 
 ## step 2 : Data 
 
-####shape_predictor_68_face_landmarks.dat
+#### shape_predictor_68_face_landmarks.dat
 We used shape_predictor_68_face_landmarks file which detecting a face in an image and setting 68 points on the face in specific locations.
 
 #### create_df.py
