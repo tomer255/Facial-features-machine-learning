@@ -1,4 +1,4 @@
-# facial features machine learning 
+# Facial features machine learning 
 
 ## Main objective 
 ### identify a gender of person by his facial features
